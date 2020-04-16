@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'photo',
     'crispy_forms',
     'watermarks',
+    'celery',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'

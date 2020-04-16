@@ -1,6 +1,7 @@
+.gitignore
 *.pyc
 __pycache__
-bin
+venv
 include
 lib
 db.sqlite3
@@ -8,5 +9,4 @@ db.sqlite3
 .DS_Store
 .idea
 pyvenv.cfg
-
-
+datadump.json
