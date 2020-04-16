@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+{% for posts in post %}
+<a href="{% url 'edit' posts.pk %}" class="top-menu">{{ posts.name }}</a><br >
+
+
+{% endfor %}
+
+{% endblock %}

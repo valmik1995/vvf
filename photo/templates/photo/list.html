@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+{% for posts in post %}
+<a href="{{ posts.pk }}" class="top-menu">{{ posts.title }}</a>
+
+<img src="{{ posts.image.url }}">
+<br><br>
+<img src="{{ posts.image_thumbail.url }}">
+<img src="{{ posts.image_watermark.url }}">
+
+{% endfor %}
+
+{% endblock %}

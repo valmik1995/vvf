@@ -1,0 +1,12 @@
+*.pyc
+__pycache__
+bin
+include
+lib
+db.sqlite3
+/static
+.DS_Store
+.idea
+pyvenv.cfg
+
+
