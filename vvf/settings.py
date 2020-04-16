@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'vvf.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django',
+        'NAME': 'vvf',
         'USER': 'postgres',
         'PASSWORD': 'docker',
         'HOST': 'localhost',
